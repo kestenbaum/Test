@@ -1,5 +1,8 @@
-const myButton = document.querySelector('.my__button')
+/*
+   first task string palindrome
+*/
 
-myButton.onclick = () => {
-   alert('a')
+const palindrome = str => {
+   return str === str.split('').reverse().join('')
 }
+
