@@ -6,3 +6,13 @@
 .header{
    display: flex;   
 }
+.my__button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px 15px;
+   color: black;
+   background-color: gray;
+   cursor: pointer;
+   border: 2px solid teal;
+}
